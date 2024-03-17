@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(57, 57, 62, 0.65),rgba(48, 47, 52, 0.65)), url(images/homebackground.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width:300px;
+    height: 100px;
+    cursor:pointer;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content{
+    margin-left: 35%;
+    margin-top: 2%;
+    color: aliceblue;
+    max-width: 900px;
+    margin-bottom: 25px;
+}
+
+.content h1{
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight:bolder;
+    line-height: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.content h2{
+    font-size: 30px;
+    font-weight:bolder;
+    line-height: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4px;
+}
+.content p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(176, 33, 11,0.9);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 300px;
+    height:100px;
+    border-radius: 6px;
+    box-shadow: 6px solid #bd4628;
+    transition: background-color 0.3s ease;
+  }
+
+  .sublogo{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .button:hover {
+    background-color: #e16630;
+  }
